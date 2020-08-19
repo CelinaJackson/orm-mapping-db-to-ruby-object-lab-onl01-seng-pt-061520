@@ -81,7 +81,7 @@ class Student
     SQL
 
     s = DB[:conn].execute(sql, x)
-    # binding.pry
+    
   end
 
   def self.first_student_in_grade_10
